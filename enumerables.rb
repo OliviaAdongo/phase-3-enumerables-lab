@@ -13,8 +13,10 @@ end
 # with the names of each spicy food
 
 def get_names(spicy_foods)
-  names = spicy_foods.map{|f| f[:name]}
-  return names
+  # names = spicy_foods.map{|f| f[:name]}
+  # return names
+  names = spicy_foods. map{|r| r[:name]}
+  re
 end
 
 # given an array of spicy foods, **return an array of hashes** 
